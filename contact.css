@@ -1,0 +1,93 @@
+.volve{
+    width: 30px;
+    
+}
+
+input[type=text]:focus{
+    background-color: lightblue;
+}
+
+input[type=tel]:focus{
+    background-color: lightblue;
+}
+
+input[type=text]{
+    width: 100%;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    resize: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+label{
+    display: inline-block;
+    padding: 12px 12px 12px 0px;
+}
+
+input[type=tel]{
+    width: 100%;
+    border: 1px solid blue;
+    box-sizing: border-box;
+    resize: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+input[type=email]{
+    box-sizing: border-box;
+    resize: none;
+    padding: 10px;
+    border-radius: 3px;
+    width: 100%;
+    border: 1px solid blue;
+}
+
+textarea{
+    box-sizing: border-box;
+    resize: none;
+    padding: 10px;
+    border-radius: 3px;
+    width: 100%;
+    border: 1px solid blue;
+
+}
+
+.page{
+    border-radius: 10px;
+    background-color: rgb(34, 158, 112);
+    padding: 20px;
+    width: 800px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px rgb(51, 145, 203);
+}
+
+button{
+ background-color: green;
+ border: none;
+ color: white;
+ padding: 15px;
+ margin:  4px;
+ width: 100%;
+ cursor: pointer;
+}
+
+input[type=button]:hover{
+    background-color: green;
+}
+
+body{
+    background-image: linear-gradient(to right, #c67020, #ddc455);
+}
+
+div{
+    width: 50%;
+    margin: 5% auto 5px;
+    border-radius: 40px;
+    padding: 40px;
+    background-color: white;
+}

@@ -1,0 +1,190 @@
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d6a314;
+    text-align: center;
+}
+
+li{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li :hover{
+    background-color: #111;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 16px;
+}
+
+h1{
+    font-family: 'Fredoka One', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: yellow;
+    text-shadow: 
+    -3px -3px 0px #4ba6ff,
+    3px -3px 0px #4ba6ff, 
+    -3px 3px 0px #4ba6ff, 
+    3px 3px 0px #4ba6ff,
+    0px 0px 5px #4ba6ff;
+    letter-spacing: 3px;
+    background-color: #47c2ff;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0px 50px 7px 50px;
+}
+
+.pag{
+    width: 60%;
+    height: 90%;
+    margin: 5% auto 5px;
+    border-radius: 40px;
+    padding: 40px;
+    background-color: white;
+}
+
+body{
+    background-image: linear-gradient(to right, #88e6bb, #5dcfd1);
+}
+
+.back{
+    border: #bcd576 6px solid;
+    border-radius: 20px 20px 20px 20px;
+    padding: 5px;
+}
+
+.taironim{
+    width: 100px;
+    height: 100px;
+    transition: width 2s, height 4s;
+  }
+  
+.taironim:hover {
+    width: 300px;
+    height: 300px;
+  }
+
+section.tairon{
+    float: left;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.tai{
+    display: flex;
+    align-items: center;  /* Centra verticalmente los elementos */
+    justify-content: flex-start;  /* Alinea los elementos hacia la izquierda */
+    gap: 20px; 
+}
+
+.pablite{
+    display: flex;
+    align-items: center;  /* Centra verticalmente los elementos */
+    justify-content: flex-start;  /* Alinea los elementos hacia la izquierda */
+    gap: 20px; 
+    margin: 0px 0px 10px 0px;
+}
+
+.pab{
+    width: 100px;
+    height: 100px;
+    transition: width 2s, height 4s;
+  }
+  
+.pab:hover {
+    width: 300px;
+    height: 300px;
+  }
+
+section.pab{
+    float: left;
+}
+
+.yunike{
+    display: flex;
+    align-items: center;  /* Centra verticalmente los elementos */
+    justify-content: flex-start;  /* Alinea los elementos hacia la izquierda */
+    gap: 20px; 
+    margin: 0px 0px 10px 0px;
+}
+
+.yunik{
+    width: 100px;
+    height: 100px;
+    transition: width 2s, height 4s;
+}
+
+.yunik:hover {
+    width: 300px;
+    height: 300px;
+}
+
+section.yunik{
+    float: left;
+}
+
+.tasha{
+    display: flex;
+    align-items: center;  /* Centra verticalmente los elementos */
+    justify-content: flex-start;  /* Alinea los elementos hacia la izquierda */
+    gap: 20px; 
+    margin: 0px 0px 10px 0px;
+}
+
+.tash{
+    width: 100px;
+    height: 100px;
+    transition: width 2s, height 4s;
+}
+
+.tash:hover {
+    width: 300px;
+    height: 300px;
+}
+
+section.tash{
+    float: left;
+}
+
+.autin{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 20px; 
+    margin: 0px 0px 10px 0px;
+}
+
+.autino{
+    width: 100px;
+    height: 100px;
+    transition: width 2s, height 4s;
+}
+
+.autino:hover {
+    width: 300px;
+    height: 300px;
+}
+
+section.autino{
+    float: left;
+}
+
+
